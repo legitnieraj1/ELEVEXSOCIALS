@@ -25,16 +25,19 @@ export default function AboutHero() {
           <Diamond className="w-6 h-6 text-primary mx-auto mb-6" />
 
           <p className="text-sm font-semibold text-primary tracking-widest uppercase mb-8">
-            Based in Bengaluru, Operating Worldwide
+            Based in Coimbatore. Operating Worldwide.
           </p>
 
           <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed mb-4">
-            We are a creative collective of event producers, marketing
-            specialists, art directors, designers, and strategic analysts.
+            ElevexSocials is a compact, execution-focused digital studio built for modern founders.
+          </p>
+          <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed mb-4">
+            We work at the intersection of AI automation, web systems, and social growth, helping businesses eliminate operational headaches and turn complexity into clarity.
           </p>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            From automation frameworks to AI-driven innovation, our expertise
-            spans the entire digital ecosystem.
+            From intelligent workflows and chat-based automation to
+            high-performance websites and scalable digital infrastructure, we design
+            solutions that solve real problems — not surface-level symptoms.
           </p>
         </motion.div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
@@ -8,7 +9,7 @@ import { FOOTER_LINKS } from "@/lib/constants";
 
 const socialLinks = [
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/elevexsocials/", label: "Instagram" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   { icon: Github, href: "https://github.com", label: "GitHub" },
 ];
@@ -61,12 +62,16 @@ export default function Footer() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-12 flex flex-col items-center"
         >
-          <h3 className="text-3xl font-bold mb-2">
-            <span className="text-jade">ELEVEX</span>
-            <span className="text-text-primary">SOCIALS</span>
-          </h3>
+          <div className="relative w-[800px] h-[190px] mb-4">
+            <Image
+              src="/images/elevexsocialslogo.png"
+              alt="ELEVEXSOCIALS"
+              fill
+              className="object-contain"
+            />
+          </div>
           <p className="text-text-secondary text-sm">
             AI Tech & Social Solutions
           </p>

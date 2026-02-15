@@ -60,34 +60,22 @@ export const TESTIMONIALS: Testimonial[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "1",
-    name: "Bharath Kumar",
-    role: "CO-FOUNDER AND CHIEF OPERATIONS OFFICER",
-    image: "/images/team/bharath.jpg",
-  },
-  {
-    id: "2",
-    name: "Sahil C",
-    role: "DIRECTOR, LIMITLESS DEVELOPMENT",
-    image: "/images/team/sahil.jpg",
-  },
-  {
-    id: "3",
-    name: "Prayaksh Singh",
-    role: "DIRECTOR, PRODUCT/DIGITAL SOLUTIONS",
-    image: "/images/team/prayaksh.jpg",
+    name: "Nieraj Niketan S",
+    role: "FOUNDER & CHIEF STRATEGIST",
+    image: "/images/team/nieraj.jpg",
     featured: true,
   },
   {
-    id: "4",
-    name: "Athul Krishna",
-    role: "DIRECTOR, TECHNOLOGY AND ENGINEERING",
-    image: "/images/team/athul.jpg",
+    id: "2",
+    name: "Pranesh Mithun GS",
+    role: "CO-FOUNDER & HEAD OF OPERATIONS",
+    image: "/images/team/pranesh.jpg",
   },
   {
-    id: "5",
-    name: "Yuvraj Umang",
-    role: "CHIEF TECHNOLOGY OFFICER",
-    image: "/images/team/yuvraj.jpg",
+    id: "3",
+    name: "Rithvick",
+    role: "CO-FOUNDER & DIGITAL SOLUTIONS LEAD",
+    image: "/images/team/rithvick.jpg",
   },
 ];
 
@@ -119,6 +107,7 @@ export const CATEGORIES = [
   "AI AUTOMATIONS",
   "SEO & GEO",
   "DIGITAL MARKETING",
+  "SEO",
 ];
 
 export const PROCESS_STEPS = [
@@ -145,6 +134,12 @@ export const PROCESS_STEPS = [
     title: "Launch & Optimization",
     description:
       "We launch your solution with precision, then continuously optimize based on real-time data and user insights.",
+  },
+  {
+    number: "05",
+    title: "Continued Growth",
+    description:
+      "Our ongoing support keeps your systems running smoothly, adapting to new challenges and scaling with your business.",
   },
 ];
 
@@ -220,24 +215,24 @@ export const SERVICES = [
 export const TIMELINE_PHASES = [
   {
     number: "01",
-    period: "2018 - 2019",
-    title: "Foundation of Vision",
+    period: "2025",
+    title: "The Beginning",
     description:
-      "Redefining how businesses approach digital transformation through automation and intelligence, laying the groundwork for a new era of operational excellence.",
+      "ElevexSocials was founded with a clear objective: to help founders escape digital chaos by replacing manual effort with intelligent systems.",
   },
   {
     number: "02",
-    period: "2019 - 2021",
-    title: "Growth & Expansion",
+    period: "Building the Core",
+    title: "Refining our Approach",
     description:
-      "Scaling our services and expanding our team to meet growing demand. Establishing partnerships with industry leaders and refining our methodologies.",
+      "Developing repeatable frameworks for automation, system design, and scalable digital execution across industries.",
   },
   {
     number: "03",
-    period: "2021 - Present",
-    title: "Industry Leadership",
+    period: "Elevation",
+    title: "Trusted Digital Partner",
     description:
-      "Leading the charge in AI-powered automation and digital transformation. Setting new standards for excellence and innovation in the industry.",
+      "Evolving into a trusted digital partner for founders who value precision, speed, and long-term leverage.",
   },
 ];
 

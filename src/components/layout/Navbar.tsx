@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -40,14 +41,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex flex-col group">
-            <span className="text-2xl font-bold tracking-tight">
-              <span className="text-jade group-hover:text-primary-light transition-colors duration-300">ELEVEX</span>
-              <span className="text-text-primary">SOCIALS</span>
-            </span>
-            <span className="text-[10px] text-text-muted tracking-widest uppercase group-hover:text-aqua transition-colors duration-300">
-              AI Tech & Social Solutions
-            </span>
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="relative w-[400px] h-[185px]">
+              <Image
+                src="/images/elevexsocialslogo.png"
+                alt="ELEVEXSOCIALS"
+                fill
+                className="object-contain object-left"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

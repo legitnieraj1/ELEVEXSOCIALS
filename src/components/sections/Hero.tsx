@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import GraphTextReveal from "@/components/hero/GraphTextReveal";
+import HeroGraph from "@/components/hero/HeroGraph";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -58,25 +59,20 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-20 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-40 w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left side — Graph Animation (Desktop) */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="hidden lg:flex items-center justify-center"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+            className="hidden lg:flex items-center justify-center relative min-h-[500px]"
           >
-            <GraphTextReveal
-              text="ELEVEXSOCIALS"
-              duration={4000}
-              delay={400}
-              autoPlay={true}
-              gradient={{
-                start: '#4AA990',
-                end: '#6ED4E6',
-              }}
-            />
+            <div className="relative w-full h-full max-w-[600px] flex items-center justify-center">
+              {/* Glow behind graph */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-jade/10 to-aqua/10 blur-[100px] rounded-full" />
+              <HeroGraph />
+            </div>
           </motion.div>
 
           {/* Right side — Hero Copy */}
@@ -185,7 +181,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5 }} className="absolute bottom-8 left-1/2 -translate-x-1/2">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5 }} className="absolute bottom-12 left-1/2 -translate-x-1/2">
         <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} className="flex flex-col items-center gap-2">
           <span className="text-text-muted text-xs uppercase tracking-widest">Scroll to explore</span>
           <div className="w-px h-8 bg-gradient-to-b from-jade/60 to-transparent" />
