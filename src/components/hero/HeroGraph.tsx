@@ -34,7 +34,7 @@ export default function HeroGraph() {
     const areaD = `${pathD} V 400 H 0 Z`;
 
     return (
-        <div className="relative w-full aspect-[16/9] lg:aspect-[4/3] flex items-center justify-center">
+        <div className="relative w-full h-full flex items-center justify-center">
             {/* ── Background Grid ── */}
             <div className="absolute inset-0 opacity-[0.2]"
                 style={{

@@ -66,7 +66,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="hidden lg:flex items-center justify-center relative min-h-[500px]"
+            className="hidden lg:flex items-center justify-center relative h-[950px]"
           >
             <div className="relative w-full h-full max-w-[600px] flex items-center justify-center">
               {/* Glow behind graph */}
