@@ -49,7 +49,7 @@ export default function ServicesHero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
               >
-                Digital Solutions
+                Full-Stack Digital Marketing
               </motion.span>
             </span>
             <span
@@ -59,7 +59,7 @@ export default function ServicesHero() {
                 animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
               >
-                That Move Markets
+                Services in Coimbatore
               </motion.span>
             </span>
           </h1>
@@ -69,7 +69,8 @@ export default function ServicesHero() {
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed"
           >
-            We craft intelligent systems and growth strategies designed to dominate the digital landscape.
+            We deliver end-to-end digital solutions tailored for businesses in Coimbatore and across Tamil Nadu.
+            Every strategy we build is designed to drive measurable results — more traffic, more leads, more revenue.
           </motion.p>
         </motion.div>
       </div>

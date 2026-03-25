@@ -7,7 +7,7 @@ import {
   Brain,
   TrendingUp,
   Share2,
-  Zap,
+  Palette,
   Database,
   ArrowRight
 } from "lucide-react";
@@ -18,8 +18,8 @@ const iconMap: Record<string, React.ElementType> = {
   "ai-automations": Brain,
   "social-media": Share2,
   "seo-growth": TrendingUp,
+  "branding": Palette,
   "apps-crms": Database,
-  performance: Zap,
 };
 
 const containerVariants = {

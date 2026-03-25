@@ -1,0 +1,21 @@
+# ElevexSocials - robots.txt
+# https://elevexsocials.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# Allow all search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://elevexsocials.com/sitemap.xml

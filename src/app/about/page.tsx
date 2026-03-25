@@ -6,9 +6,12 @@ import WhatWeDo from "@/components/sections/WhatWeDo";
 import ClosingStatement from "@/components/sections/ClosingStatement";
 
 export const metadata: Metadata = {
-  title: "About Us | ElevexSocials",
+  title: "About ElevexSocials | Coimbatore Digital Marketing Team",
   description:
-    "ElevexSocials is a compact, execution-focused digital studio built for modern founders.",
+    "Meet the team behind Coimbatore's fastest-growing digital marketing agency. Learn about our story, values & results-driven approach to web development, SEO & branding.",
+  alternates: {
+    canonical: "https://elevexsocials.com/about",
+  },
 };
 
 export default function AboutPage() {

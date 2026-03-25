@@ -3,9 +3,12 @@ import ContactForm from "@/components/sections/ContactForm";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact ElevexSocials | Digital Marketing Agency Coimbatore",
   description:
-    "Get in touch with ELEVEXSOCIALS. Let us discuss your next project and how we can help transform your digital presence.",
+    "Get in touch for a free digital marketing consultation. Visit our Coimbatore office or book a call. Web development, SEO, branding & AI automation.",
+  alternates: {
+    canonical: "https://elevexsocials.com/contact",
+  },
 };
 
 export default function ContactPage() {
@@ -22,10 +25,10 @@ export default function ContactPage() {
                 lineHeight: "1.2",
               }}
             >
-              Let&apos;s <span className="text-primary">Connect</span>
+              Contact <span className="text-primary">ElevexSocials</span>
             </h1>
             <p className="text-text-secondary max-w-xl mx-auto">
-              Have a project in mind? We&apos;d love to hear from you.
+              Get in touch for a free digital marketing consultation in Coimbatore. Let&apos;s discuss how we can grow your business.
             </p>
           </div>
 
@@ -53,7 +56,7 @@ export default function ContactPage() {
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-sm font-bold text-text-primary mb-1">Location</h3>
-              <p className="text-text-secondary text-sm">Bengaluru, India</p>
+              <p className="text-text-secondary text-sm">Coimbatore, Tamil Nadu, India</p>
             </div>
           </div>
         </div>

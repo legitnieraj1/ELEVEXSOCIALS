@@ -138,68 +138,74 @@ export const PROCESS_STEPS = [
 export const SERVICES = [
   {
     id: "custom-web-dev",
-    title: "Custom Web Development",
-    description: "Bespoke web solutions tailored to your business needs",
+    title: "Professional Web Development in Coimbatore",
+    description:
+      "Fast, mobile-first websites that convert visitors into paying customers. We design and develop high-performance websites for startups, e-commerce brands, and local businesses across Tamil Nadu.",
     features: [
-      "Responsive Websites",
-      "E-commerce Platforms",
-      "Progressive Web Apps",
-      "Custom Web Applications",
+      "Custom business websites with conversion-optimized design",
+      "E-commerce stores on Shopify, WooCommerce & custom platforms",
+      "Landing pages that drive leads and sales",
+      "Web applications with React, Next.js & Node.js",
     ],
   },
   {
     id: "ai-automations",
-    title: "AI Automations",
-    description: "Intelligent systems that work while you sleep",
+    title: "AI-Powered Business Automation",
+    description:
+      "Stop wasting hours on repetitive tasks. We build custom AI automation systems that handle lead follow-ups, customer support, appointment booking, and marketing workflows for Coimbatore businesses.",
     features: [
-      "Workflow Automation",
-      "Data Processing",
-      "Chatbots & Virtual Assistants",
-      "Intelligent Analytics",
+      "WhatsApp & Instagram DM chatbots",
+      "AI-powered email sequences for lead nurturing",
+      "Appointment scheduling automation",
+      "CRM workflow automation & custom API integrations",
     ],
   },
   {
     id: "social-media",
-    title: "Social Media & Digital Marketing",
-    description: "Amplify your brand across all platforms",
+    title: "Social Media Marketing Agency Coimbatore",
+    description:
+      "Scroll-stopping content, engaged communities, and high-ROI ad campaigns for businesses across Coimbatore. Whether you're a restaurant, gym, startup, or e-commerce brand — we make social work.",
     features: [
-      "Social Media Management",
-      "Content Strategy & Creation",
-      "Paid Advertising",
-      "Influencer Marketing",
+      "Content strategy & calendar planning for your industry",
+      "Professional graphic design & video content (Reels, Stories)",
+      "Instagram, Facebook, LinkedIn & YouTube management",
+      "Paid social advertising with optimized targeting",
     ],
   },
   {
     id: "seo-growth",
-    title: "SEO & Growth",
-    description: "Dominate search results and scale your reach",
+    title: "SEO Services That Rank Coimbatore Businesses",
+    description:
+      "Comprehensive search engine optimization designed specifically for businesses in Coimbatore. We combine technical expertise, keyword strategy, and quality content to drive organic traffic that converts.",
     features: [
-      "Technical SEO",
-      "Content Optimization",
-      "Link Building",
-      "Analytics & Reporting",
+      "Deep keyword research targeting Coimbatore searches",
+      "Technical SEO audit & Core Web Vitals optimization",
+      "Local SEO & Google Business Profile optimization",
+      "Off-page authority building with quality backlinks",
+    ],
+  },
+  {
+    id: "branding",
+    title: "Build a Brand That Coimbatore Remembers",
+    description:
+      "A strong brand is not just a logo — it's the feeling people get when they think about your business. We craft compelling brand identities that attract customers, build trust, and stand out.",
+    features: [
+      "Brand strategy & positioning workshops",
+      "Logo design with unlimited revisions",
+      "Complete visual identity system & brand guidelines",
+      "Social media branding kit & stationery design",
     ],
   },
   {
     id: "apps-crms",
     title: "Next-Gen Apps & CRMs",
-    description: "Custom software built for your workflow",
+    description:
+      "Custom software built for your workflow. From SaaS applications to mobile apps, we engineer solutions that scale with your Coimbatore business.",
     features: [
-      "Custom CRM Development",
-      "SaaS Applications",
-      "Mobile Apps",
-      "API Integrations",
-    ],
-  },
-  {
-    id: "performance",
-    title: "Performance Optimization",
-    description: "Lightning-fast experiences that convert",
-    features: [
-      "Speed Optimization",
-      "Conversion Rate Optimization",
-      "A/B Testing",
-      "User Experience Design",
+      "Custom CRM development",
+      "SaaS applications & mobile apps",
+      "API integrations connecting your existing tools",
+      "Scalable architecture for growing businesses",
     ],
   },
 ];

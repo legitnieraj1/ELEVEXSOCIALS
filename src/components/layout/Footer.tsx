@@ -73,7 +73,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-text-secondary text-sm">
-            AI Tech & Social Solutions
+            Best Digital Marketing Agency in Coimbatore
           </p>
         </motion.div>
 
@@ -138,8 +138,9 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="text-center text-sm text-text-muted">
-          <p>&copy; 2025 ELEVEXSOCIALS - All Systems Operational</p>
+        <div className="text-center text-sm text-text-muted space-y-1">
+          <p>&copy; 2025 ElevexSocials - Best Digital Marketing Agency in Coimbatore</p>
+          <p className="text-xs">Web Development &bull; SEO &bull; Social Media Marketing &bull; Branding &bull; AI Automation &bull; Coimbatore, Tamil Nadu</p>
         </div>
       </div>
     </footer>

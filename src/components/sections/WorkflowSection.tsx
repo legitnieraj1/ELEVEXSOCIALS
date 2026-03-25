@@ -34,7 +34,7 @@ export default function WorkflowSection() {
               <span className="bg-gradient-to-r from-jade to-aqua bg-clip-text text-transparent">Reality</span>
             </h2>
             <p className="text-text-secondary mb-8 leading-relaxed">
-              We don&apos;t just build software; we engineer growth. Our proven four-step process ensures transparency, speed, and exceptional results for every project.
+              We don&apos;t just build software; we engineer growth for Coimbatore businesses. Our proven process ensures transparency, speed, and exceptional results — from initial strategy to measurable ROI.
             </p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 border border-jade/30 rounded-lg hover:bg-jade/10 hover:border-jade/50 transition-all duration-300 text-text-primary group">
               Start Your Project

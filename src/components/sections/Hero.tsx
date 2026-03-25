@@ -102,13 +102,13 @@ export default function Hero() {
               className="font-bold mb-8 leading-[1.06] tracking-tight"
               style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)" }}
             >
-              <span className="text-text-primary">Elevate Your Brand</span>
+              <span className="text-text-primary">Coimbatore&apos;s #1</span>
               <br />
               <span className="bg-gradient-to-r from-jade via-aqua to-jade bg-clip-text text-transparent">
-                Engineer Your Growth
+                Digital Marketing Agency
               </span>
               <br />
-              <span className="text-text-primary">Own the Digital Space</span>
+              <span className="text-text-primary">Grow Your Business with ElevexSocials</span>
             </motion.h1>
 
             {/* ── Subhead ── */}
@@ -116,9 +116,10 @@ export default function Hero() {
               variants={itemVariants}
               className="text-base md:text-lg text-text-secondary mb-10 max-w-xl leading-relaxed"
             >
-              We build intelligent digital systems that turn attention into leverage.
-              From AI-powered automation to performance-first social strategies,
-              ElevexSocials helps modern brands scale with clarity, control, and precision.
+              We help local businesses, startups, and e-commerce brands in Coimbatore
+              dominate online through data-driven SEO, high-converting websites,
+              powerful branding, and AI-powered automation. From your first Google
+              ranking to your thousandth customer, ElevexSocials is your growth partner.
             </motion.p>
 
             {/* ── Value Blocks ── */}
@@ -126,21 +127,21 @@ export default function Hero() {
               {/* Block 1 */}
               <div className="p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-jade/10 hover:border-jade/20 transition-all duration-300 group">
                 <h3 className="text-sm font-bold text-jade uppercase tracking-wider mb-2">
-                  Built for Real-World Impact
+                  Data-Driven Digital Marketing
                 </h3>
                 <p className="text-text-secondary text-sm leading-relaxed">
-                  Ecommerce platforms, fitness ecosystems, smart attendance systems,
-                  and automated business workflows — engineered to perform.
+                  SEO, social media marketing, web development, and e-commerce solutions
+                  tailored for Coimbatore businesses — engineered to deliver measurable ROI.
                 </p>
               </div>
               {/* Block 2 */}
               <div className="p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-jade/10 hover:border-jade/20 transition-all duration-300 group">
                 <h3 className="text-sm font-bold text-jade uppercase tracking-wider mb-2">
-                  Designed for Long-Term Growth
+                  AI-Powered Growth Solutions
                 </h3>
                 <p className="text-text-secondary text-sm leading-relaxed">
-                  Every solution compounds over time, integrating technology, data,
-                  and strategy into one unified growth engine.
+                  From intelligent business automation to performance-first branding,
+                  every solution compounds over time into a unified growth engine.
                 </p>
               </div>
             </motion.div>
@@ -163,16 +164,16 @@ export default function Hero() {
             {/* ── CTAs ── */}
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
               <Link
-                href="/services"
+                href="/contact"
                 className="px-8 py-4 bg-jade text-white font-semibold rounded-lg hover:bg-teal hover:shadow-lg hover:shadow-jade/20 transition-all duration-300 hover:scale-[1.03] active:scale-95"
               >
-                OUR SERVICES
+                BOOK YOUR FREE STRATEGY SESSION
               </Link>
               <Link
-                href="/contact"
+                href="/services"
                 className="px-8 py-4 border-2 border-jade text-jade font-semibold rounded-lg hover:bg-jade hover:text-white transition-all duration-300 group flex items-center gap-2 hover:shadow-lg hover:shadow-jade/20"
               >
-                BOOK A DEMO
+                OUR SERVICES
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </motion.div>

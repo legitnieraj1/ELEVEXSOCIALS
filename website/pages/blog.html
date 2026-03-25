@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert insights on SEO, web development, branding & social media marketing for businesses in Coimbatore. Read the ElevexSocials blog.">
+    <meta name="keywords" content="digital marketing blog, SEO tips, web development guide, social media strategy, Coimbatore businesses">
+    <meta name="author" content="ElevexSocials">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6B5DFF">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Digital Marketing Blog | Tips for Coimbatore Businesses | ElevexSocials">
+    <meta property="og:description" content="Expert insights on SEO, web development, branding & social media marketing for businesses in Coimbatore. Read the ElevexSocials blog.">
+    <meta property="og:url" content="https://elevexsocials.com/blog">
+    <meta property="og:image" content="https://elevexsocials.com/images/blog-og.jpg">
+    <meta property="og:site_name" content="ElevexSocials">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Digital Marketing Blog | Tips for Coimbatore Businesses | ElevexSocials">
+    <meta name="twitter:description" content="Expert insights on SEO, web development, branding & social media marketing for businesses in Coimbatore. Read the ElevexSocials blog.">
+    <meta name="twitter:image" content="https://elevexsocials.com/images/blog-og.jpg">
+    <meta name="twitter:site" content="@elevexsocials">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://elevexsocials.com/blog">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Digital Marketing Blog | Tips for Coimbatore Businesses | ElevexSocials</title>
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "ElevexSocials Blog",
+        "description": "Digital marketing insights and tips for Coimbatore businesses",
+        "url": "https://elevexsocials.com/blog",
+        "author": {
+            "@type": "Organization",
+            "name": "ElevexSocials",
+            "url": "https://elevexsocials.com"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://elevexsocials.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://elevexsocials.com/blog"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Elevex<span class="accent">Socials</span></a>
+            </div>
+
+            <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+
+                <li class="nav-dropdown">
+                    <button class="nav-link dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+                        Services
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="web-development.html" role="menuitem">Web Development</a></li>
+                        <li><a href="seo-services.html" role="menuitem">SEO Services</a></li>
+                        <li><a href="social-media-marketing.html" role="menuitem">Social Media Marketing</a></li>
+                        <li><a href="branding.html" role="menuitem">Branding</a></li>
+                        <li><a href="ai-automation.html" role="menuitem">AI Automation</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html#audit" class="nav-link cta-button">Get Free Audit</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Breadcrumb -->
+    <section class="hero-section blog-hero" role="banner">
+        <div class="breadcrumb" role="navigation" aria-label="Breadcrumb">
+            <a href="../index.html">Home</a>
+            <span aria-hidden="true">/</span>
+            <span>Blog</span>
+        </div>
+        <div class="hero-content">
+            <h1>ElevexSocials Blog — Digital Marketing Insights for Coimbatore</h1>
+            <p class="hero-subtitle">Expert tips, strategies, and trends to help your business grow online</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Category Filter Bar -->
+        <section class="blog-filters-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-btn" data-filter="seo" aria-pressed="false">SEO</button>
+                    <button class="filter-btn" data-filter="web-dev" aria-pressed="false">Web Development</button>
+                    <button class="filter-btn" data-filter="social-media" aria-pressed="false">Social Media</button>
+                    <button class="filter-btn" data-filter="branding" aria-pressed="false">Branding</button>
+                    <button class="filter-btn" data-filter="ai-automation" aria-pressed="false">AI Automation</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts Grid -->
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <article class="blog-card" data-category="web-dev">
+                        <div class="blog-image-placeholder web-dev-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Web Development</span>
+                                <span class="blog-date">March 20, 2026</span>
+                            </div>
+                            <h3 class="blog-title">7 Reasons Every Coimbatore Business Needs a Professional Website in 2026</h3>
+                            <p class="blog-excerpt">
+                                In today's digital landscape, your website is often the first impression customers have of your business. Discover why investing in a professional website isn't optional—it's essential for growth.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">5 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="blog-card" data-category="seo">
+                        <div class="blog-image-placeholder seo-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">SEO</span>
+                                <span class="blog-date">March 18, 2026</span>
+                            </div>
+                            <h3 class="blog-title">How to Get Your Coimbatore Business on Page 1 of Google</h3>
+                            <p class="blog-excerpt">
+                                Google's first page gets 91% of web traffic. Learn the proven SEO strategies that have helped 50+ Coimbatore businesses rank higher and attract more qualified customers.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">8 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="blog-card" data-category="social-media">
+                        <div class="blog-image-placeholder social-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Social Media</span>
+                                <span class="blog-date">March 15, 2026</span>
+                            </div>
+                            <h3 class="blog-title">The Complete Digital Marketing Guide for Gym Owners in India</h3>
+                            <p class="blog-excerpt">
+                                Running a gym in competitive markets requires smart digital marketing. This comprehensive guide covers social media strategies, lead generation, and member retention tactics.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">12 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 4 -->
+                    <article class="blog-card" data-category="web-dev">
+                        <div class="blog-image-placeholder web-dev-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Web Development</span>
+                                <span class="blog-date">March 12, 2026</span>
+                            </div>
+                            <h3 class="blog-title">How Much Does a Website Cost in Coimbatore? 2026 Pricing Guide</h3>
+                            <p class="blog-excerpt">
+                                Website costs vary widely depending on complexity, features, and maintenance. Get a realistic breakdown of pricing for different types of websites tailored to Coimbatore businesses.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">6 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 5 -->
+                    <article class="blog-card" data-category="ai-automation">
+                        <div class="blog-image-placeholder ai-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">AI Automation</span>
+                                <span class="blog-date">March 10, 2026</span>
+                            </div>
+                            <h3 class="blog-title">How to Reduce Cart Abandonment with AI-Powered Email Automation</h3>
+                            <p class="blog-excerpt">
+                                E-commerce stores lose 70% of shopping carts. Learn how AI-powered email automation can recover those abandoned carts and increase your revenue without extra effort.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">7 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 6 -->
+                    <article class="blog-card" data-category="seo">
+                        <div class="blog-image-placeholder seo-bg"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">SEO</span>
+                                <span class="blog-date">March 8, 2026</span>
+                            </div>
+                            <h3 class="blog-title">Why Local SEO is a Game-Changer for Coimbatore Restaurants</h3>
+                            <p class="blog-excerpt">
+                                Restaurant owners: 92% of customers search locally before dining. Discover local SEO tactics that get your restaurant found by hungry customers in Coimbatore searching for food.
+                            </p>
+                            <div class="blog-footer">
+                                <span class="read-time">5 min read</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Ahead of the Competition</h2>
+                    <p>Get the latest digital marketing tips, strategies, and industry insights delivered to your inbox every week. Join 500+ Coimbatore business owners and marketers.</p>
+
+                    <form class="newsletter-form" id="newsletterForm" method="POST" action="https://formspree.io/f/YOUR_FORM_ID" name="newsletter">
+                        <div class="newsletter-input-group">
+                            <input
+                                type="email"
+                                id="newsletterEmail"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required
+                                aria-label="Email address for newsletter"
+                                aria-required="true">
+                            <button type="submit" class="newsletter-btn" aria-label="Subscribe to newsletter">Subscribe</button>
+                        </div>
+                        <p class="newsletter-note">We respect your privacy. Unsubscribe at any time.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Implement These Strategies?</h2>
+                <p>Let's discuss how we can apply these digital marketing tactics to your business and drive real growth.</p>
+                <a href="contact.html" class="cta-button cta-large">Schedule a Consultation</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>About ElevexSocials</h4>
+                <p>Coimbatore's trusted digital marketing agency. We help businesses grow online through web development, SEO, branding, and innovative digital solutions.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/elevexsocials" rel="noopener noreferrer" aria-label="Facebook">f</a>
+                    <a href="https://instagram.com/elevexsocials" rel="noopener noreferrer" aria-label="Instagram">ig</a>
+                    <a href="https://linkedin.com/company/elevexsocials" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+                    <a href="https://twitter.com/elevexsocials" rel="noopener noreferrer" aria-label="Twitter">x</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="seo-services.html">SEO Services</a></li>
+                    <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+                    <li><a href="branding.html">Branding</a></li>
+                    <li><a href="ai-automation.html">AI Automation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p>
+                    <strong>Email:</strong> hello@elevexsocials.com<br>
+                    <strong>Phone:</strong> +91-9000000000<br>
+                    <strong>Location:</strong> Coimbatore, Tamil Nadu
+                </p>
+                <p class="business-hours">Mon-Sat: 9:00 AM - 7:00 PM IST</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 ElevexSocials. All rights reserved. | Crafted with expertise in Coimbatore</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script>
+        // Blog Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.dataset.filter;
+
+                    // Update active state
+                    filterBtns.forEach(b => {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    this.classList.add('active');
+                    this.setAttribute('aria-pressed', 'true');
+
+                    // Filter cards
+                    blogCards.forEach(card => {
+                        if (filter === 'all' || card.dataset.category === filter) {
+                            card.style.display = 'flex';
+                            card.classList.add('fade-in');
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

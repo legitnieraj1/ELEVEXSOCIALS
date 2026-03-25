@@ -3,9 +3,12 @@ import ClientSuccess from "@/components/sections/ClientSuccess";
 import Transformations from "@/components/sections/Transformations";
 
 export const metadata: Metadata = {
-  title: "Testimonials",
+  title: "Client Results & Testimonials | ElevexSocials Coimbatore",
   description:
-    "See what our clients say about working with ELEVEXSOCIALS. Real results, real reviews from businesses we have transformed.",
+    "See real results from businesses we've transformed. ElevexSocials delivers measurable growth through web development, SEO, branding & digital marketing in Coimbatore.",
+  alternates: {
+    canonical: "https://elevexsocials.com/testimonials",
+  },
 };
 
 export default function TestimonialsPage() {
