@@ -1,6 +1,7 @@
 "use client";
 
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 interface TestimonialCardProps {
   company: string;
@@ -9,6 +10,7 @@ interface TestimonialCardProps {
   content: string;
   results?: string[];
   flexTag?: string;
+  logo?: string;
 }
 
 export default function TestimonialCard({
@@ -18,16 +20,21 @@ export default function TestimonialCard({
   content,
   results,
   flexTag,
+  logo,
 }: TestimonialCardProps) {
   return (
     <div className="bg-white border border-jade/10 rounded-2xl p-6 hover:bg-jade/5 hover:border-primary/50 transition-all duration-300 group">
       {/* Company name and rating */}
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-            <span className="text-primary font-bold text-sm">
-              {company.charAt(0)}
-            </span>
+          <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center overflow-hidden">
+            {logo ? (
+              <Image src={logo} alt={`${company} logo`} width={40} height={40} className="w-full h-full object-cover" />
+            ) : (
+              <span className="text-primary font-bold text-sm">
+                {company.charAt(0)}
+              </span>
+            )}
           </div>
           <h3 className="text-lg font-bold text-text-primary">{company}</h3>
         </div>

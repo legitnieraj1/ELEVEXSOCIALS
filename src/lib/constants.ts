@@ -4,6 +4,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: "1",
     company: "Daluxe Skincare",
+    logo: "/images/daluxe.png",
     rating: 5,
     tags: ["E-COMMERCE", "CONVERSION OPTIMIZATION"],
     content:
@@ -15,6 +16,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: "2",
     company: "MFP Gym",
+    logo: "/images/mfp logo.jpg",
     rating: 5,
     tags: ["WEBSITE", "BRANDING"],
     content:
@@ -26,6 +28,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: "3",
     company: "Roman Gym",
+    logo: "/images/logoroman.png",
     rating: 5,
     tags: ["WEB DEVELOPMENT"],
     content:
@@ -37,6 +40,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: "4",
     company: "Valencir\u00E9",
+    logo: "/images/valencire.png",
     rating: 5,
     tags: ["BRANDING", "E-COMMERCE", "CONTENT STRATEGY"],
     content:
