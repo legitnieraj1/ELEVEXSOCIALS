@@ -97,7 +97,7 @@ const localBusinessSchema = {
   url: "https://elevexsocials.com",
   logo: "https://elevexsocials.com/images/elevexsocialslogo.png",
   image: "https://elevexsocials.com/images/elevexsocialslogo.png",
-  telephone: "+91-98765-43210",
+  telephone: "+91-9500593323",
   email: "elevexsocials@gmail.com",
   priceRange: "$$",
   address: {

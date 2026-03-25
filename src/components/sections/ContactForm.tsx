@@ -120,10 +120,14 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/10">
+              <div className="grid grid-cols-3 gap-8 pt-8 border-t border-white/10">
                 <div>
                   <h3 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-2">Get In Touch</h3>
-                  <p className="text-white font-medium">elevexsocials@gmail.com</p>
+                  <a href="mailto:elevexsocials@gmail.com" className="text-white font-medium hover:text-jade transition-colors">elevexsocials@gmail.com</a>
+                </div>
+                <div>
+                  <h3 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-2">Phone</h3>
+                  <a href="tel:+919500593323" className="text-white font-medium hover:text-jade transition-colors">+91 9500593323</a>
                 </div>
                 <div>
                   <h3 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-2">Location</h3>
