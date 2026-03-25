@@ -3,57 +3,47 @@ import type { Testimonial, TeamMember } from "@/types";
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: "1",
-    company: "VE Couriers",
+    company: "Daluxe Skincare",
     rating: 5,
-    tags: ["WEB DEVELOPMENT"],
+    tags: ["E-COMMERCE", "CONVERSION OPTIMIZATION"],
     content:
-      "...difference in how we operate daily. Our dispatchers spend 50% less time on repetitive tasks, and customers clearly say they like the new tracking.",
-    category: "CUSTOM WEB-DEV",
+      "We built a high-converting skincare store from scratch, optimized specifically for mobile users and Indian buyers. The focus was on trust, clean design, and conversion-driven product pages.",
+    category: "E-COMMERCE",
+    results: ["\u20B980,000+ revenue generated", "Optimized product page structure", "Smooth checkout + mobile-first UX"],
+    flexTag: "E-commerce Growth",
   },
   {
     id: "2",
-    company: "DataMinds",
+    company: "MFP Gym",
     rating: 5,
-    tags: ["AI AUTOMATIONS", "DATA PROCESSING"],
+    tags: ["WEBSITE", "BRANDING"],
     content:
-      "Automating our data entry and analysis has freed up our analysts to focus on strategy. The return on investment was immediate and obvious.",
-    category: "AI AUTOMATIONS",
+      "We created a strong digital presence for MFP Gym that reflects its energy and professionalism, making it easier for potential members to trust and join.",
+    category: "BRANDING",
+    results: ["Improved local brand credibility", "Clean and structured website", "Better first impression for new clients"],
+    flexTag: "Local Business Branding",
   },
   {
     id: "3",
-    company: "MarketWise Agency",
+    company: "Roman Gym",
     rating: 5,
-    tags: ["SEO", "CONTENT STRATEGY"],
+    tags: ["WEB DEVELOPMENT"],
     content:
-      "We finally rank for the keywords that matter to our business. More importantly, the visitors we get now are people who actually want what we offer. Quality over quantity.",
-    category: "SEO & GEO",
+      "We designed a modern and impactful website for Roman Gym, helping them present their facilities and services in a premium and professional way.",
+    category: "WEB DEVELOPMENT",
+    results: ["Professional online presence", "Clear service showcasing", "Increased inquiries from new visitors"],
+    flexTag: "Conversion Optimization",
   },
   {
     id: "4",
-    company: "Urban Eatery",
+    company: "Valencir\u00E9",
     rating: 5,
-    tags: ["CUSTOM WEB-DEV", "ORDERING SYSTEM"],
+    tags: ["BRANDING", "E-COMMERCE", "CONTENT STRATEGY"],
     content:
-      "The custom online ordering system was a game changer. It's fast, reliable, and our staff loves how easy it is to adapt to our menu options, making takeout smooth for our staff.",
-    category: "CUSTOM WEB-DEV",
-  },
-  {
-    id: "5",
-    company: "Nexus Fitness",
-    rating: 5,
-    tags: ["DIGITAL MARKETING", "SOCIAL MEDIA"],
-    content:
-      "Our social media engagement tripled within the first month. The content strategy was spot-on and the paid campaigns delivered incredible ROI.",
-    category: "DIGITAL MARKETING",
-  },
-  {
-    id: "6",
-    company: "CloudSync Solutions",
-    rating: 5,
-    tags: ["AI AUTOMATIONS", "WORKFLOW"],
-    content:
-      "The AI-powered workflow automation saved our team over 20 hours per week. Our operations are streamlined and our team can focus on what truly matters.",
-    category: "AI AUTOMATIONS",
+      "We built Valencir\u00E9 as a performance-driven clothing brand with a strong aesthetic identity, focusing on viral content and demand-driven launches.",
+    category: "BRANDING",
+    results: ["Brand built from scratch", "Pre-launch hype strategy", "Content designed for organic reach"],
+    flexTag: "Performance Marketing Ready",
   },
 ];
 
@@ -103,11 +93,9 @@ export const FOOTER_LINKS = {
 
 export const CATEGORIES = [
   "ALL",
-  "CUSTOM WEB-DEV",
-  "AI AUTOMATIONS",
-  "SEO & GEO",
-  "DIGITAL MARKETING",
-  "SEO",
+  "E-COMMERCE",
+  "WEB DEVELOPMENT",
+  "BRANDING",
 ];
 
 export const PROCESS_STEPS = [
@@ -239,20 +227,42 @@ export const TIMELINE_PHASES = [
 export const TRANSFORMATIONS = [
   {
     id: 1,
-    client: "TechStartup Inc",
-    before: { metric: "15K", label: "Monthly Visitors" },
-    after: { metric: "127K", label: "Monthly Visitors" },
+    client: "Daluxe Skincare",
+    before: {
+      items: ["No optimized online store", "Low trust for new customers", "No structured conversion flow"],
+    },
+    after: {
+      items: ["\u20B980K+ revenue generated", "High-converting product pages", "Mobile-first optimized design"],
+    },
   },
   {
     id: 2,
-    client: "E-Commerce Brand",
-    before: { metric: "2.3%", label: "Conversion Rate" },
-    after: { metric: "8.7%", label: "Conversion Rate" },
+    client: "MFP Gym",
+    before: {
+      items: ["No strong online presence", "Basic or outdated branding", "Low digital trust"],
+    },
+    after: {
+      items: ["Professional website", "Strong brand perception", "Improved client trust"],
+    },
   },
   {
     id: 3,
-    client: "Local Restaurant Chain",
-    before: { metric: "340", label: "Monthly Orders" },
-    after: { metric: "2.1K", label: "Monthly Orders" },
+    client: "Roman Gym",
+    before: {
+      items: ["Limited digital visibility", "No structured service showcase"],
+    },
+    after: {
+      items: ["Modern premium website", "Better service presentation", "Increased inquiries"],
+    },
+  },
+  {
+    id: 4,
+    client: "Valencir\u00E9",
+    before: {
+      items: ["No brand identity", "No structured launch plan"],
+    },
+    after: {
+      items: ["Strong brand positioning", "Content-driven growth strategy", "Ready-to-scale e-commerce setup"],
+    },
   },
 ];

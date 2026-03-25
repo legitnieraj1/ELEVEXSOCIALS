@@ -27,10 +27,16 @@ export default function ClientSuccess() {
           className="mb-12"
         >
           <h2 className="font-bold" style={{ fontSize: "clamp(2.5rem, 6vw, 4rem)", lineHeight: "1.2" }}>
-            CLIENT<br />
-            <span className="bg-gradient-to-r from-jade to-aqua bg-clip-text text-transparent">SUCCESS</span>
+            We Build Brands<br />
+            <span className="bg-gradient-to-r from-jade to-aqua bg-clip-text text-transparent">That Actually Grow.</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-jade to-aqua mt-4 rounded-full" />
+          <p className="text-text-secondary mt-4 max-w-2xl text-lg">
+            From local businesses to e-commerce brands, every project is designed to increase trust, conversions, and real business results &mdash; not just look good.
+          </p>
+          <p className="text-jade font-semibold mt-3 text-sm uppercase tracking-wide">
+            Focused on results within the first 7&ndash;21 days of launch.
+          </p>
         </motion.div>
 
         <motion.div

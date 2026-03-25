@@ -7,6 +7,8 @@ interface TestimonialCardProps {
   rating: number;
   tags: string[];
   content: string;
+  results?: string[];
+  flexTag?: string;
 }
 
 export default function TestimonialCard({
@@ -14,6 +16,8 @@ export default function TestimonialCard({
   rating,
   tags,
   content,
+  results,
+  flexTag,
 }: TestimonialCardProps) {
   return (
     <div className="bg-white border border-jade/10 rounded-2xl p-6 hover:bg-jade/5 hover:border-primary/50 transition-all duration-300 group">
@@ -49,8 +53,24 @@ export default function TestimonialCard({
       {/* Content */}
       <p className="text-text-secondary leading-relaxed mb-4">{content}</p>
 
-      {/* Orange accent line */}
-      <div className="w-12 h-1 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
+      {/* Results */}
+      {results && results.length > 0 && (
+        <ul className="space-y-1.5 mb-4">
+          {results.map((result) => (
+            <li key={result} className="flex items-start gap-2 text-sm text-text-secondary">
+              <span className="text-primary mt-0.5">&#10003;</span>
+              {result}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {/* Flex tag */}
+      {flexTag && (
+        <span className="inline-block px-3 py-1 bg-gradient-to-r from-jade/10 to-aqua/10 text-jade text-xs font-semibold rounded-full border border-jade/20">
+          {flexTag}
+        </span>
+      )}
     </div>
   );
 }

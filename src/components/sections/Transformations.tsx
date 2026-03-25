@@ -55,19 +55,31 @@ export default function Transformations() {
               transition={{ duration: 0.5 }}
               className="glass rounded-2xl p-8 md:p-12"
             >
-              <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="grid md:grid-cols-2 gap-8 items-stretch">
                 <div>
                   <p className="text-text-muted font-semibold mb-4 uppercase tracking-wide text-sm">Before</p>
-                  <div className="bg-background rounded-xl p-8 border border-jade/8">
-                    <p className="text-5xl font-bold text-text-primary mb-2">{TRANSFORMATIONS[currentIndex].before.metric}</p>
-                    <p className="text-text-secondary">{TRANSFORMATIONS[currentIndex].before.label}</p>
+                  <div className="bg-background rounded-xl p-8 border border-jade/8 h-full">
+                    <ul className="space-y-3">
+                      {TRANSFORMATIONS[currentIndex].before.items.map((item: string) => (
+                        <li key={item} className="flex items-start gap-3 text-text-secondary">
+                          <span className="text-red-400 mt-0.5">&times;</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
                 <div>
                   <p className="text-jade font-semibold mb-4 uppercase tracking-wide text-sm">After</p>
-                  <div className="bg-gradient-to-br from-jade/15 to-aqua/5 border border-jade/25 rounded-xl p-8 shadow-lg shadow-jade/5">
-                    <p className="text-5xl font-bold bg-gradient-to-r from-jade to-aqua bg-clip-text text-transparent mb-2">{TRANSFORMATIONS[currentIndex].after.metric}</p>
-                    <p className="text-text-secondary">{TRANSFORMATIONS[currentIndex].after.label}</p>
+                  <div className="bg-gradient-to-br from-jade/15 to-aqua/5 border border-jade/25 rounded-xl p-8 shadow-lg shadow-jade/5 h-full">
+                    <ul className="space-y-3">
+                      {TRANSFORMATIONS[currentIndex].after.items.map((item: string) => (
+                        <li key={item} className="flex items-start gap-3">
+                          <span className="text-jade mt-0.5">&#10003;</span>
+                          <span className="text-text-primary font-medium">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
