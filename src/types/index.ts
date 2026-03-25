@@ -6,6 +6,8 @@ export interface Testimonial {
   tags: string[];
   content: string;
   category: string;
+  results?: string[];
+  flexTag?: string;
 }
 
 export interface TeamMember {
