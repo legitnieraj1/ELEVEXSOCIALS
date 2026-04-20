@@ -39,7 +39,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-sm font-bold text-text-primary mb-1">Email</h3>
               <p className="text-text-secondary text-sm">
-                hello@elevexsocials.com
+                elevexsocials@gmail.com
               </p>
             </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-sm font-bold text-text-primary mb-1">Phone</h3>
-              <p className="text-text-secondary text-sm">+91 98765 43210</p>
+              <p className="text-text-secondary text-sm">+91 9500593323</p>
             </div>
 
             <div className="bg-white border border-jade/10 rounded-2xl p-6 text-center hover:border-primary/50 transition-colors">
